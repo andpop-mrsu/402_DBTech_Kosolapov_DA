@@ -1,0 +1,19 @@
+{
+    "name": "idane/guess-number",
+    "autoload": {
+        "psr-4": {
+            "Idane\\GuessNumber\\": "src/"
+        }
+    },
+    "files": ["src/Controller.php", "src/View.php"],
+    "bin": ["bin/guess-number.php"],
+    "authors": [
+        {
+            "name": "1D4n3",
+            "email": "125080408+1D4n3@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "wp-cli/php-cli-tools": "^0.11.19"
+    }
+}
