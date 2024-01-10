@@ -3,10 +3,12 @@
     "autoload": {
         "psr-4": {
             "Idane\\GuessNumber\\": "src/"
-        }
+        },
+        "files": [
+            "src/Controller.php",
+            "src/View.php"
+        ]
     },
-    "files": ["src/Controller.php", "src/View.php"],
-    "bin": ["bin/guess-number.php"],
     "authors": [
         {
             "name": "1D4n3",
@@ -14,6 +16,9 @@
         }
     ],
     "require": {
-        "wp-cli/php-cli-tools": "^0.11.19"
-    }
+        "wp-cli/php-cli-tools": "^0.11.22"
+    },
+    "bin": [
+        "bin/guess-number.php"
+    ]
 }

@@ -1,11 +1,9 @@
 <?php
-namespace 1D4n3\guess_number\View;
 
-class View
+namespace Idane\GuessNumber\View;
+use function cli\line;
+
+function showGame()
 {
-    public function showWelcomeScreen()
-    {
-        echo "Добро пожаловать в игру!\n";
-    }
+    line("Интерфейс игры");
 }
-?>

@@ -1,16 +1,12 @@
 #!/usr/bin/env php
 <?php
-require_once(__DIR__ . '/../src/Controller.php');
-require_once(__DIR__ . '/../src/View.php');
-require_once(__DIR__ . '/../vendor/autoload.php');
 
-use 1D4n3\guess_number\Controller\Controller; #???
-use 1D4n3\guess_number\View\View; #???
+$autoloadPath = __DIR__ . '/../vendor/autoload.php';
 
-Controller\startGame();
+if (file_exists($autoloadPath)) {
+    require_once($autoloadPath);
+}
 
-$controller = new Controller();
-$view = new View ();
+use function Idane\GuessNumber\Controller\startGame;
 
-$controller->startGame($view);
-?>
+startGame();

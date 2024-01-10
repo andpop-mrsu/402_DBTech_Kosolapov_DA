@@ -1,13 +1,10 @@
 <?php
-namespace 1D4n3\guess_number\Contoller;
 
-use 1D4n3\guess_number\View\View;
+namespace Idane\GuessNumber\Controller;
+use function Idane\GuessNumber\View\showGame;
+use function cli\line;
 
-class Controller
+function startGame()
 {
-    public function startGame (View $view)
-    {
-        $view->showWelcomeScreen();
-    }
+    line("Угадай число!");
 }
-?>
