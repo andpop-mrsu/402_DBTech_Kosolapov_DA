@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'idane/guess-number',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'reference' => 'fcd4528294ccd01a24ab05a99fe2addc6c3f4875',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        'gabordemooij/redbean' => array(
+            'pretty_version' => 'v5.7.4',
+            'version' => '5.7.4.0',
+            'reference' => '274c426583d91b20a1e39968b2e20969ef83cd1d',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../gabordemooij/redbean',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'idane/guess-number' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => 'fcd4528294ccd01a24ab05a99fe2addc6c3f4875',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'wp-cli/php-cli-tools' => array(
+            'pretty_version' => 'v0.11.22',
+            'version' => '0.11.22.0',
+            'reference' => 'a6bb94664ca36d0962f9c2ff25591c315a550c51',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../wp-cli/php-cli-tools',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);
