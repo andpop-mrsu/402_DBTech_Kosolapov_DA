@@ -1,0 +1,55 @@
+body {
+    background-color: #FFFFFF; /* Белый фон */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Высота экрана */
+}
+
+.center {
+    background-color: #FFA500; /* Оранжевый фон окна */
+    color: #000000; /* Черный текст */
+    font-family: Arial, sans-serif; /* Более читаемый шрифт */
+    padding: 20px; /* Отступы от внутренности окна */
+    display: flex;
+    flex-direction: column; /* Элементы располагаются вертикально */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px; /* Закругленные углы окна */
+}
+
+input[type="number"], button {
+    margin: 0.5em; /* Отступы вокруг полей ввода и кнопок */
+    width: 200px; /* Ширина поля ввода и кнопок */
+    box-sizing: border-box; /* Новое свойство */
+    border-radius: 15px; /* Закругленные углы кнопок и поля ввода */
+}
+
+button {
+    background-color: #000000; /* Черные кнопки */
+    border: none;
+    color: #FFFFFF; /* Белый текст на кнопках */
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s; /* Плавное изменение стиля кнопки при наведении */
+}
+
+button:hover {
+    background-color: #FFFFFF; /* Белый фон при наведении */
+    color: #000000; /* Черный текст при наведении */
+}
+
+input[type="number"] {
+    padding: 15px; /* Добавляем padding, чтобы поле ввода было такого же размера, как кнопка */
+}
+
+#statusMarker {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%; /* Делает маркер круглым */
+}

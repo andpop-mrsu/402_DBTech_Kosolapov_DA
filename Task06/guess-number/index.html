@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Угадай число</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="bin/styles.css">
+</head>
+<body>
+<div id="welcome-screen" class="center">
+    <h1>Игра: УГАДАЙ ЧИСЛО</h1>
+    <button id="startButton">Начать</button>
+</div>
+<div id="game-screen" class="center" style="display: none;">
+    <h1>Угадай число</h1>
+    <p id="message">Введите число:</p>
+    <p id="attempts"></p>
+    <div id="input-row">
+        <input type="number" id="userInput">
+        <button id="checkButton">Проверить</button>
+        <button id="exitButton">Выйти из игры</button>
+    </div>
+</div>
+<script src="src/Model.js"></script>
+<script src="src/View.js"></script>
+<script src="src/Controller.js"></script>
+</body>
+</html>
