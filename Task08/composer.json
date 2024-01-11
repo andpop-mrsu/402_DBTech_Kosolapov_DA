@@ -1,0 +1,21 @@
+{
+    "name": "idane/task08",
+    "autoload": {
+        "psr-4": {
+            "Idane\\Task08\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "1D4n3",
+            "email": "125080408+1D4n3@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "wp-cli/php-cli-tools": "^0.11.22",
+        "gabordemooij/redbean": "^5.7",
+        "slim/slim": "^4.12",
+        "slim/psr7": "^1.6",
+        "slim/http": "^0.4.0"
+    }
+}

@@ -1,0 +1,5 @@
+vendor/
+.idea/
+.ai/
+composer.lock
+db
